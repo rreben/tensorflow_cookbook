@@ -1,4 +1,17 @@
 # Standard python gitignore file
+.DS_Store
+Thumbs.db
+*.pyc
+out
+.ipynb_checkpoints
+vagrant/bootstrap_complete.txt
+ipynb/ipython_notebook.nohup.out
+vagrant/.vagrant/
+twitter.oauth_access
+.vagrant
+Berksfile.lock
+._*
+credentials.json
 *.csv
 !/06_Neural_Networks/08_Learning_Tic_Tac_Toe/base_tic_tac_toe_moves.csv
 *.tsv

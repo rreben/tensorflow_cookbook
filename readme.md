@@ -1,3 +1,18 @@
+# Fork of https://github.com/nfmcclure/tensorflow_cookbook
+
+## Why did I fork this project
+With this fork I provide basket4py support. That is the complete anaconda stack is installed to a vagrant environment. So you can have everything on a virtual guest machine.
+
+## Installation
+Have a look at the basket4py website on github.
+
+Of course you need to install tensorflow. This is not yet included in the chef recipes. To do so use:
+``` sh
+hostmachine> vagrant ssh
+guestmachine> sudo -i conda install tensorflow
+```
+
+
 <img src="https://github.com/nfmcclure/tensorflow_cookbook/raw/master/images/book_covers.jpg" data-canonical-src="https://github.com/nfmcclure/tensorflow_cookbook/raw/master/images/book_covers.jpg" width="400" height="250" />
 
 # [TensorFlow Machine Learning Cookbook](https://www.packtpub.com/big-data-and-business-intelligence/tensorflow-machine-learning-cookbook)
